@@ -1,25 +1,28 @@
 package com.employeepayroll;
 
 import junit.framework.TestSuite;
-import org.junit.Test;
 import junit.framework.TestCase;
 
 
 
 public class EmployeePayrollServicesTest
-        extends TestCase {
+        extends TestCase
+{
 
-    public EmployeePayrollServicesTest(String testName) {
-        super(testName);
+    public EmployeePayrollServicesTest(String testName )
+    {
+        super( testName );
     }
 
 
-    public static Test suite() {
-        return (Test) new TestSuite(EmployeePayrollServicesTest.class);
+    public static TestSuite suite()
+    {
+        return new TestSuite( EmployeePayrollServicesTest.class );
     }
 
 
-    public void testApp() {
-        assertTrue(true);
+    public void testApp()
+    {
+        assertTrue( true );
     }
 }

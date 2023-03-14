@@ -1,6 +1,8 @@
 package com.employeepayroll;
 
-public class EmployeePayroll {
+import java.io.Serializable;
+
+public class EmployeePayroll implements Serializable {
     public int id;
     public String name;
     public double salary;
